@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photobooth Bisnis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Photobooth Bisnis</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#packages">Paket & Harga</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Selamat Datang di Photobooth Bisnis</h2>
+        <p>Nikmati momen spesial Anda dengan layanan photobooth kami.</p>
+        <a href="#packages" class="btn">Pesan Sekarang</a>
+    </section>
+
+    <section id="payment">
+        <h2>Pembayaran</h2>
+        <p>Scan QR code di bawah ini untuk melakukan pembayaran:</p>
+        <div id="qrcode-payment"></div>
+    </section>
+
+    <section id="share">
+        <h2>Unduh Foto</h2>
+        <p>Scan QR code di bawah ini untuk mengunduh foto:</p>
+        <div id="qrcode-share"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Photobooth Bisnis. All rights reserved.</p>
+    </footer>
+
+    <script src="qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
